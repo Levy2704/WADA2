@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+   box-sizing: border-box;
+   margin: 0px;
+}
+
+:root {
+   --font:'Varela Round', sans-serif;
+   --background-primary: black;
+   --background-secondary:#535353;
+   --font-primary: white;
+   --font-secondary: #8e8e8e;
+   --border-primary: #dbdbdb;
+   --link-primary: #0095f6;
+}
+
+body {
+   background-color: var(--background-primary);
+   font-family: var(--font);
+   font-size: 16px;
+}
+
+a {
+   text-decoration: none;
+   color: var(--link-primary);
+}

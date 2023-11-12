@@ -1,0 +1,74 @@
+.Sidebar{
+  position: fixed;
+  Top: 0;
+  z-index: 2;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  
+  height: 83%;
+  width: 20%;
+  padding: 10px;
+
+  background-color: var(--background-primary);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.Sidelogo {
+  width:100px;
+  padding-left:50px;
+  padding: 10px;
+}
+
+.Sidelogo:hover {
+  cursor: pointer;
+  filter:saturate(80%);
+}
+
+.Sidelogo:active {
+  filter:saturate(50%);
+}
+
+.Sidemenu{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.Sidemenu .icon {
+  margin-top: 25px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+.Sidemenu .favourites {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.Sidemenu .icon:hover {
+  cursor: pointer;
+  filter: grayscale(100%) brightness(150%) ;
+}
+
+.Sidemenu .icon:active {
+  filter: grayscale(100%) brightness(150%) ;
+}
+
+.menu-text {
+  /* Styles for the text next to the icon */
+  color: #b3b3b3;
+  font-size: 16px; 
+  font-family: 'Arial', sans-serif;
+}
+.menu-text:hover {
+  /* Styles for the text next to the icon */
+  color: #ffffff; /* Set the text color to #b3b3b3 */
+}
+
+/* changing svg colours with css using the filter - convert a hex color to filter using this codepen
+https://codepen.io/sosuke/pen/Pjoqqp
+*/

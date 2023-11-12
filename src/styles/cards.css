@@ -1,0 +1,33 @@
+.playlists
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.cards {
+  color:white;
+  padding-top: 10px;
+  margin-left: 20%;
+  width: 80%;
+  background-color: #1d1d1de1;;
+  padding-bottom: 100px;
+  border-radius: 50px;
+}
+.row {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+.cards h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 3%;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}

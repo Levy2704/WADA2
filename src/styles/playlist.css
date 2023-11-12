@@ -1,0 +1,38 @@
+
+.playlist {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 100px;
+  border: 1px solid var(--border-color);
+  background-color: #212121fd;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 10px;
+  transition: 1s;
+}
+.playlist:hover {
+  cursor: pointer;
+  box-shadow: none;
+  border: 1px solid var(--border-color);
+  background-color: #535353;
+}
+.playinfo
+{
+  padding: 5px;
+}
+.playinfo h3
+{
+  font-size: 15px;
+}
+
+.playlistimage {
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  height: 90%;
+  object-fit: cover;
+  display: block;
+}
